@@ -1,18 +1,23 @@
-public class Multiplication {
+public class Division {
     public static void main(String[] args) {
         // Declare two numbers
-        int num1 = 5;
+        int num1 = 20;
         int num2 = 4;
 
-        // Call the multiplyNumbers method to multiply the numbers
-        int result = multiplyNumbers(num1, num2);
+        // Call the divideNumbers method to divide the numbers
+        double result = divideNumbers(num1, num2);
 
         // Print the result
-        System.out.println("The product is: " + result);
+        System.out.println("The quotient is: " + result);
     }
 
-    // Method to multiply two numbers
-    public static int multiplyNumbers(int a, int b) {
-        return a * b;
+    // Method to divide two numbers
+    public static double divideNumbers(int a, int b) {
+        // Check if the denominator is 0 to prevent division by zero
+        if (b == 0) {
+            System.out.println("Error: Division by zero is not allowed.");
+            return 0;
+        }
+        return (double) a / b;
     }
 }
