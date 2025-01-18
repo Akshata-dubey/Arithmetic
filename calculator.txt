@@ -1,18 +1,18 @@
-public class Subtraction {
+public class Multiplication {
     public static void main(String[] args) {
         // Declare two numbers
-        int num1 = 15;
-        int num2 = 5;
+        int num1 = 5;
+        int num2 = 4;
 
-        // Call the subtractNumbers method to subtract the numbers
-        int result = subtractNumbers(num1, num2);
+        // Call the multiplyNumbers method to multiply the numbers
+        int result = multiplyNumbers(num1, num2);
 
         // Print the result
-        System.out.println("The difference is: " + result);
+        System.out.println("The product is: " + result);
     }
 
-    // Method to subtract two numbers
-    public static int subtractNumbers(int a, int b) {
-        return a - b;
+    // Method to multiply two numbers
+    public static int multiplyNumbers(int a, int b) {
+        return a * b;
     }
 }
