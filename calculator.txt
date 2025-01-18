@@ -1,9 +1,4 @@
 
-public class Addition {
-    public static void main(String[] args) {
-        // Declare two numbers
-        int num1 = 5;
-        int num2 = 10;
 
         // Call the addNumbers method to add the numbers
         int result = addNumbers(num1, num2);
@@ -17,3 +12,4 @@ public class Addition {
         return a + b;
     }
 }
+
