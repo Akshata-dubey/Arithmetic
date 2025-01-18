@@ -1,1 +1,19 @@
-ECHO is on.
+
+public class Addition {
+    public static void main(String[] args) {
+        // Declare two numbers
+        int num1 = 5;
+        int num2 = 10;
+
+        // Call the addNumbers method to add the numbers
+        int result = addNumbers(num1, num2);
+
+        // Print the result
+        System.out.println("The sum is: " + result);
+    }
+
+    // Method to add two numbers
+    public static int addNumbers(int a, int b) {
+        return a + b;
+    }
+}
