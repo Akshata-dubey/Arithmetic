@@ -1,19 +1,18 @@
-
-public class Addition {
+public class Subtraction {
     public static void main(String[] args) {
         // Declare two numbers
-        int num1 = 5;
-        int num2 = 10;
+        int num1 = 15;
+        int num2 = 5;
 
-        // Call the addNumbers method to add the numbers
-        int result = addNumbers(num1, num2);
+        // Call the subtractNumbers method to subtract the numbers
+        int result = subtractNumbers(num1, num2);
 
         // Print the result
-        System.out.println("The sum is: " + result);
+        System.out.println("The difference is: " + result);
     }
 
-    // Method to add two numbers
-    public static int addNumbers(int a, int b) {
-        return a + b;
+    // Method to subtract two numbers
+    public static int subtractNumbers(int a, int b) {
+        return a - b;
     }
 }
